@@ -1,0 +1,48 @@
+body{
+    background: black;
+}
+h1{
+    color:  rgb(51, 241, 13);
+    font-size: 50px;
+    font-family:'Roboto Slab', serif;
+    margin-left: 35%;
+}
+#hasan{
+    box-sizing: content-box;
+    border-radius: 10px;
+    box-shadow: 0px 20px 10px 0px honeydew;
+}
+.card{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    padding-left: 40%;
+}
+@media screen and (max-width: 600px){
+    #name{
+        padding-left: 25%;
+    }
+}
+.btn{
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid rgb(51, 241, 13);
+    background-color: transparent;
+    height: 80px;
+    width: 250px;
+    color: white;
+    font-size: 20px;
+    box-shadow: 0 6px 6px rgb(51, 241, 13);
+    display:list-item;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.btn:hover{
+    width: 300px;
+    border: 1px solid rgb(49, 228, 219);
+    box-shadow: 0 6px 6px rgb(49, 228, 219);
+    transition: 0.5s;
+}
+
+    
+
